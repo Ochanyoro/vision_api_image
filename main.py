@@ -34,7 +34,7 @@ def vision_api_ocr(image_file, api_key=""):
     return text
 
 # imgの画像ファイルのあるPATHは皆様の環境に合わせて変更してください。
-img = "/static/images/ichika.png"
+img = "/im/images/ichika.png"
 key = "Google Cloud PlatformのKey"
 data = vision_api_ocr(img, key)
 print(data)
